@@ -1,0 +1,13 @@
+[Unit]
+Description=Backup to server
+Wants=network-online.target
+After=network-online.target
+
+[Timer]
+# OnUnitActiveSec
+# https://github.com/systemd/systemd/issues/6680
+OnCalendar=*-*-* *:*:00/30
+AccuracySec=5s
+
+[Install]
+WantedBy=multi-user.target

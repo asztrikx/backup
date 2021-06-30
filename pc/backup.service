@@ -1,0 +1,8 @@
+[Unit]
+Description=Backup to server
+
+[Service]
+# Only one process will be up at time
+Type=simple
+ExecStart=/usr/bin/backup
+User=root

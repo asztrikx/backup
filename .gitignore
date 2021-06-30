@@ -1,0 +1,4 @@
+android/backup_exclude.txt
+pc/backup_exclude.txt
+pc/backup
+pc/backup_translation.json

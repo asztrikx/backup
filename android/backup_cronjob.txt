@@ -1,0 +1,1 @@
+* * * * * flock -n $HOME/backup/backup.lck $HOME/backup/backup.sh
